@@ -4,7 +4,6 @@
 To get a local copy of the project:
 ```bash
 git clone https://github.com/Zanvis/AI-Helpdesk.git
-cd helpdesk-ai-assistant
 ```
 
 Alternatively, you can fork the repository on GitHub and then clone your fork.
