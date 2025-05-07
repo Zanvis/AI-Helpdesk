@@ -1,0 +1,21 @@
+{
+    "name": "helpdesk-ai",
+    "version": "1.0.0",
+    "description": "A helpdesk using Gemini AI",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0",
+        "socket.io": "^4.8.1",
+        "dotenv": "^16.5.0",
+        "cors": "^2.8.5",
+        "@google/genai": "^0.13.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
+}

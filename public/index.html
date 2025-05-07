@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Helpdesk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Helpdesk</h1>
+        </header>
+
+        <div class="content">
+            <div class="chat-container">
+                <div class="chat-messages" id="chat-messages"></div>
+                <div class="chat-input">
+                    <input type="text" id="message-input" placeholder="Type your message here..." />
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+
+            <div class="form-status">
+                <h2>Form Status</h2>
+                <div class="form-fields">
+                    <div class="field">
+                        <span class="field-name">First Name:</span>
+                        <span class="field-value" id="firstname-value"></span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">Last Name:</span>
+                        <span class="field-value" id="lastname-value"></span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">Email:</span>
+                        <span class="field-value" id="email-value"></span>
+                    </div>
+                    <div class="field">
+                        <span class="field-name">Reason of Contact:</span>
+                        <span class="field-value" id="reason-value"></span>
+                        </div>
+                    <div class="field">
+                        <span class="field-name">Urgency:</span>
+                        <span class="field-value" id="urgency-value"></span>
+                    </div>
+                </div>
+                <button id="reset-button" class="reset-button">Reset Form</button>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
