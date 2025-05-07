@@ -1,5 +1,7 @@
 # Helpdesk AI
 
+I sincerely apologize for the lack of commit history in the project on GitHub. This was caused by my mistake, and I take full responsibility for it.
+
 ### 1. Clone the Repository
 To get a local copy of the project:
 ```bash
